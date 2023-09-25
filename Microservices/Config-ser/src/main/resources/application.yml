@@ -1,0 +1,13 @@
+    server:
+      port: 8005
+    spring:
+      application:
+        name: CONFIG-SERVER
+
+
+      cloud:
+        config:
+          server:
+            git:
+              uri: https://github.com/Goshantanu/Gateway-config-ser
+              clone-on-start: true
